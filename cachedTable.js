@@ -48,13 +48,27 @@ cachedTable.prototype = {
 	}
 }
 
-var hi = new cachedTable('lol', ['a', 'b', 'c']);
-hi.addRow(['k', 'l', 'i']);
-hi.addRow(['a', 'x', 'l']);
-hi.addRow(['b', 'a', 'd']);
-hi.addRow(['c', 'b', 'f;']);
-hi.addRow(['d', 'c', 'g']);
-hi.addRow(['e', 'd', 'h']);
-hi.addRow(['f', 'e', 'k']);
-hi._log();
-hi.getRow('a', 'a');
+// var hi = new cachedTable('lol', ['a', 'b', 'c']);
+// function addandlog(callback){
+// 	hi.addRow(['k', 'l', 'i']);
+// 	hi.addRow(['a', 'x', 'l']);
+// 	hi.addRow(['b', 'a', 'd']);
+// 	hi.addRow(['c', 'b', 'f;']);
+// 	hi.addRow(['d', 'c', 'g']);
+// 	hi.addRow(['e', 'd', 'h']);
+// 	hi.addRow(['f', 'e', 'k']);
+// 	hi._log();
+// 	hi.getRow('a', 'a');
+// 	callback('done');
+// }
+// function goo(){
+// 	addandlog(function(ret){
+// 		hi._clear();
+// 	});
+// }
+// goo();
+
+//
+	// getExistingDatabase: function(){
+
+	// },
